@@ -15,7 +15,7 @@ classifiers = [
 # Core stays light — rendering / screenshots only (no torch). The `pixelshot` command and
 # the `pixelrag` umbrella work on this alone. Heavy ML stages are opt-in extras below.
 dependencies = [
-    "pillow>=10.0.0",
+    "pillow>=10.0",
     "websockets>=12.0",
     "pymupdf>=1.27.2.3",
     "pyturbojpeg>=2.2.0",
